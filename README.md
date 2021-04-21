@@ -9,7 +9,13 @@
 
 3)Category Noise removal is also there.
 
-Demo - 
+
+Deploy this war file in Tomcat.
+API Url will be as follows - 
+"http://localhost:8080/SemanticClassifierv2/getTextAnalysis?text=" + text
+
+
+# Demo 
 
 getTextAnalytics_url=https_%2F%2Fwww.thequint.com%2Fentertainment%2Fcelebrities%2Fanuradha-paudwal-dismisses-kerala-woman-claiming-to-be-her-daughter
 
