@@ -42,7 +42,7 @@ class computeIAB(Resource):
         text = text.replace("’", "")
         print(text)
 
-        r1 = requests.get("http://101.53.130.215:8080/SemanticClassifierv2/getTextAnalysis?text=" + text)
+        r1 = requests.get("http://localhost:8080/SemanticClassifierv2/getTextAnalysis?text=" + text)
 
         jData = json.loads(r1.content)
         print(jData)
@@ -83,7 +83,7 @@ class computeIAB(Resource):
         if y is "":
             y = text
 
-        r = requests.get("http://101.53.130.215:5000/IAB/" + y.lower().replace("-", ""))
+        r = requests.get("http://localhost:5000/IAB/" + y.lower().replace("-", ""))
         print(r.content)
         data = r.content.decode("utf-8").strip().replace('"','')
         print(data)
