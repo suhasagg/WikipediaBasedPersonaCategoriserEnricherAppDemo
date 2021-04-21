@@ -17,6 +17,8 @@ API Url will be as follows -
 
 Sample Application for noise removal and improve classification efficiency using ranked-categories.csv + All_hidden_categories.txt is also provided.
 
+IAB segments classifier + Custom taxonomy support.
+
 # Demo 
 
 getTextAnalytics_url=https_%2F%2Fwww.thequint.com%2Fentertainment%2Fcelebrities%2Fanuradha-paudwal-dismisses-kerala-woman-claiming-to-be-her-daughter
