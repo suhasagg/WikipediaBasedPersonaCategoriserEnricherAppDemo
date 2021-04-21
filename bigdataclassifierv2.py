@@ -18,10 +18,6 @@ from json import dumps
 app = Flask(__name__)
 api = Api(app)
 
-
-
-
-
 class computeIAB(Resource):
     def get(self):
         #Connect to databse
